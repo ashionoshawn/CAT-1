@@ -1,0 +1,17 @@
+# #include <iostream>
+
+using namespace std;
+
+int main();
+{
+    const double pie_n = 3.141592;
+    int value_radius ='r'; //enter value of r
+    int value_height = 'h'; // enter value of h
+    int area_cylinder = (2 * pie_n * 'h') + (2 * pie_n * 'r' * 'r');
+    int vol_cylinder = pie_n * 'r' * 'r' * 'h';
+    cout << vol_cylinder; 
+    cout << area_cylinder;
+    return 0;
+    
+}
+
